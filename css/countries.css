@@ -1,0 +1,389 @@
+.header_nav_item:nth-child(2) {
+    border: 3px solid #53B48D;
+    border-radius: 10px;
+    transform: skewX(-20deg);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav_item:nth-child(2) a {
+    color: #53B48D;
+    line-height: 39px;
+    transform: skewX(20deg);
+}
+
+.header_nav_item:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.header_nav_item:nth-child(3) a {
+    color: #BEBDBF;
+}
+
+.header_nav_item:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.header_nav_item:nth-child(4) a {
+    color: #BEBDBF;
+}
+
+.footer_nav_item:nth-child(4) {
+    border: none;
+}
+
+.footer_nav_item:nth-child(4) a {
+    color: black;
+}
+
+.footer_nav_item a:hover {
+    color: #53B48D;
+}
+
+.footer_nav_item:nth-child(2) {
+    border: 3px solid #53B48D;
+    border-radius: 10px;
+    transform: skewX(-20deg);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav_item:nth-child(2) a {
+    color: #53B48D;
+    line-height: 39px;
+    transform: skewX(20deg);
+}
+
+.footer {
+    margin-top: 90px;
+}
+
+.header_nav a:hover {
+    color: #53B48D;
+}
+
+.header_top_img {
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.countries_trip {
+    padding-top: 70px;
+}
+
+.countries_trip hr {
+    border: none;
+    background-color: #53B48D;
+    color: #53B48D;
+    margin-top: 50px;
+    height: 8px;
+    width: 90px;
+}
+
+.countries_trip h3 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.countries_trip_text {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 50px;
+}
+
+.services_prices {
+    background-image: url(../img/sunset-pool.png);
+    background-size: cover;
+    display: flex;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 81.25%, #FFFFFF 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 21.35%), url(../img/sunset-pool.png);
+    flex-wrap: wrap;
+    margin-top: 170px;
+    padding-bottom: 50px;
+}
+
+.services_prices_item {
+    width: 340px;
+    background: white;
+    height: 460px;
+    border-radius: 9px;
+    margin-left: 65px;
+}
+
+.services_prices_item:nth-child(2) {
+    margin-left: 25px;
+}
+
+.services_prices_item:nth-child(3) {
+    margin-left: 25px;
+}
+
+.services_prices_item:nth-child(4) {
+    margin-top: 70px;
+}
+
+.services_prices_item:nth-child(5) {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.services_prices_item:nth-child(6) {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.services_prices_item:nth-child(7) {
+    margin-top: 70px;
+}
+
+.services_prices_item:nth-child(8) {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.services_prices_item:nth-child(9) {
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+.services_prices_item_img {
+    width: 340px;
+    height: 260px;
+}
+
+.services_prices_item_subtitle {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.price {
+    display: inline-block;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    margin-left: 103px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.price span {
+    font-size: 17px;
+}
+
+.services_prices_item_text {
+    margin-left: 25px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 15px;
+    width: 240px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.time_trip {
+    display: inline-block;
+}
+
+.time_trip p {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14.8px;
+    line-height: 5px;
+    text-align: right;
+}
+
+.services_prices_item hr {
+    border: none;
+    background-color: #F5F5F5;
+    color: #F5F5F5;
+    height: 7px;
+    margin-top: -2px;
+    width: 340px;
+}
+
+.rating_block {
+    display: flex;
+}
+
+.rating_text {
+    margin-left: 25px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16.6px;
+}
+
+.rating_block_stars {
+    margin-left: 25px;
+    display: flex;
+}
+
+.services_prices_item_button {
+    width: 90px;
+    height: 25px;
+    margin-left: 54px;
+    margin-top: 15px;
+    background: #53B48D;
+    border-radius: 5px;
+}
+
+.services_prices_item_button_text {
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.gallery hr {
+    border: none;
+    background-color: #53B48D;
+    color: #53B48D;
+    margin-top: 20px;
+    height: 8px;
+    width: 90px;
+}
+
+.gallery h3 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.gallery_content {
+    display: flex;
+    overflow: hidden;
+    margin-top: 90px;
+    flex-direction: row-reverse;
+}
+
+.gallery_content_img_1 {
+    width: 300px;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: 20px;
+    filter: drop-shadow(3px 7px 7px rgba(0, 0, 0, 0.45));
+}
+
+.gallery_content_img_2 {
+    width: 300px;
+    height: 330px;
+    margin-left: 20px;
+    filter: drop-shadow(3px 7px 7px rgba(0, 0, 0, 0.45));
+}
+
+#slider {
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+#slider {
+    margin: 0 auto;
+}
+
+#slides article {
+    width: 20%;
+    float: left;
+    width: 1200px;
+    height: 1200px;
+}
+
+#slides .image {
+    width: 500%;
+    line-height: 0;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+article img {
+    width: 100%;
+}
+
+#desktop:checked~#slider {
+    max-width: 1200px;
+
+}
+
+label,
+a {
+    cursor: pointer;
+}
+
+.all input {
+    display: none;
+}
+
+
+
+#active label {
+    display: inline-block;
+    margin-left: 60px;
+    width: 90px;
+    height: 5px;
+    background: black;
+}
+
+#active label:nth-child(1):after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    transform: rotate(180deg);
+    border-right: 0;
+    top: -7.5px;
+    right: 9px;
+    border-left-color: black;
+}
+
+#active label:nth-child(2):after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right: 0;
+    top: -7.5px;
+    right: -90px;
+    border-left-color: black;
+}
+
+#active {
+    margin: 23% 0 0;
+    text-align: center;
+}
+
+#active label:hover {
+    background: black;
+}
+
+#switch1:checked~#active label:nth-child(1),
+#switch2:checked~#active label:nth-child(2),
+#switch3:checked~#active label:nth-child(3),
+#switch4:checked~#active label:nth-child(4),
+#switch5:checked~#active label:nth-child(5) {
+    background: black;
+    border-color: black !important;
+}
+
+#slides .image {
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
